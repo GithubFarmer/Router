@@ -1,0 +1,10 @@
+
+
+target 'RouterProject' do
+  use_frameworks!
+
+  puts "--------第三方库will更新--------".green
+  use_frameworks!
+  pod 'CTMediator'
+
+end
